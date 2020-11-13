@@ -5,7 +5,7 @@ function App() {
   const [showPara, setShowPara] = useState(false); // used to declare our own State variables in function, can't be used in class component
   return (
     <div id="main">
-      <button id="click" onclick={() => setShowPara(!showPara)}>Toggle Para</button>
+      <button id="click" onclick={() => setShowPara(true)}>Show Para</button>
       {showPara ? (<p id="para">
         Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy
       </p>) : null}
